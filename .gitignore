@@ -1,7 +1,4 @@
-echo "node_modules/
-backend/.env
-backend/data.json
-.vscode/
-dist/
-build/
-.env" > .gitignore
+.env
+__pycache__/
+*.pyc
+scheduled_emails.json
